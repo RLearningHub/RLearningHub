@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHUL learning hub</title>
+    <link rel="stylesheet" href="Rlearning.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!----<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">--->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Rlearning.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Rlearning.html">HOME</a></li>
+                    <li><a href="Rlearning-about.html">ABOUT</a></li>
+                    <li><a href="Rlearning-courses.html">COURSE</a></li>
+                    <li><a href="Rlearning-blog.html">BLOG</a></li>
+                    <li><a href="Rlearning-contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+       <h1>Our Courses</h1>
+
+    </section>
+
+    <!----------course---->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>"Unlock your potential with our comprehensive courses, carefully crafted to provide a deep
+             understanding of theoretical <br>concepts and practical applications. From fundamentals
+              to advanced topics,<br> our courses cover the full spectrum of knowledge."
+    
+        </p>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Electronics and Communication Engineering</h3>
+                <p>"Unlock the power of electronics and communication with our cutting-edge course, exploring the 
+                    latest advancements in communication systems, signal processing, and microcontrollers. Our expert 
+                    faculty will guide you through hands-on projects and real-world applications."
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Civil Engineering</h3>
+                <p>"Build a strong foundation in civil engineering with our comprehensive course, covering the design, 
+                    construction, and management of infrastructure projects. From structural analysis to transportation 
+                    engineering, our course prepares you for a career in shaping the built environment."
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Electrical Engineering</h3>
+                <p>"Spark your curiosity with our electrical engineering course, exploring the principles of electromagnetism, 
+                    control systems, and electrical machines. Our expert faculty will guide you through hands-on projects and 
+                    real-world applications, from electrical circuits to industrial automation."
+                </p>
+            </div>
+        </div>
+    
+    </section>
+
+<!------faculties------->
+
+<section class="faculties">
+    <h1>Our Faculties</h1>
+    <p>"Our faculty comprises experienced educators with a minimum of 2 years of
+         teaching <br>experience, complemented by industrial expertise, ensuring students 
+         receive <br>insightful guidance and practical knowledge."
+    </p>
+
+    <div class="row">
+        <div class="faculties-col">
+            <img src="images/rahul sir.jpg">
+            <h3>Mr. Rahul Gorai <br>(DEE, B-tech in ECE from RKMGEC, Purulia)</h3>
+            <p>2 years plus teaching experiences.</p>
+        </div>
+        <div class="faculties-col">
+            <img src="images/debarati mam.jpg">
+            <h3>Ms. Debarati Das <br>(DCE from SRSV, Suri)</h3>
+            <p>2 years plus teaching experiences.</p>
+        </div>
+        <div class="faculties-col">
+            <img src="images/pritam sir1.jpg">
+            <h3>Mr. Pritam Mondal <br>(DEE, BE in EE from SVU, Kolkata)</h3>
+            <p>2 years plus teaching and industrial experinces.</p>
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+
+<!--------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our team consists of experienced educators and industry professionals who are experts in 
+        their fields. <br>They have years of experience teaching and working in electrical engineering, 
+        <br> and are passionate about sharing their knowledge with others.
+
+    </p>
+
+        <div class="icons">
+            
+            <a href="https://www.facebook.com/profile.php?id=100059568828675"><i class="fa-brands fa-square-facebook"></i></a>
+            
+            <a href="https://www.instagram.com/rahulgorai07ack/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/Rahul34801?t=QIoJh7jEslFha4TkECOyXQ&s=08 "><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.google.co.in/"><i class="fa-brands fa-google"></i></a>
+            <a href="7074118472"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="rahulgorai8768@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i></i> by easy tutorials</p>
+
+</section>
+
+
+
+
+
+
+<!--------javascript for toggle menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
